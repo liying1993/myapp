@@ -1,0 +1,13 @@
+@import "~element-ui/lib/theme-default/index.css";
+@import "~font-awesome/css/font-awesome.min.css";
+
+$color-background: #F9FAFC; // 主背景色
+$color-sec-background: #EFF2F7; // 次背景色
+$color-gray-font: #8391a5; // 灰色字体颜色
+
+body {
+  font-family: Helvetica Neue, Helvetica, PIngFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
+  background-color: $color-background;
+  margin: 0;
+  padding:0;
+}
