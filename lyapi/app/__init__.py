@@ -8,7 +8,9 @@ def create_app():
     CORS(app)
     app.secret_key = "A0Zr98j/3yX R~XHH!jmN]LWX/,?RT"
     api = Api(app)
-    api.add_resource(resource.ResourceUser, "/")
+    api.add_resource(resource.ResourceUser, "/register")
+    api.add_resource(resource.ResourceUserLogin, "/login")
+    api.add_resource(resource.ResourceLianLian, '/lianlian')
 
     return app
 
